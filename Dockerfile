@@ -12,7 +12,7 @@ WORKDIR /app
 COPY . .
 
 # ポート番号（Streamlitは8501を使用）
-EXPOSE 8501
+EXPOSE 8080
 
 # 起動コマンド
-CMD ["streamlit", "run", "conv.py", "--server.port=8501", "--server.enableCORS=false"]
+CMD ["streamlit", "run", "conv.py", "--server.port=8080", "--server.enableCORS=false"]
