@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: webclass-to-canvas
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    repo: https://github.com/Ttajika/webclass2qti
